@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loom - Tecer Inovações</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para seu arquivo CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        header nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        header nav a:hover {
+            color: #f0a500;
+        }
+        .hero {
+            background: url('https://source.unsplash.com/1600x900/?innovation,technology') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero h1 {
+            font-size: 3em;
+            animation: fadeIn 2s;
+        }
+        .hero p {
+            font-size: 1.2em;
+            animation: fadeIn 2.5s;
+        }
+        .hero .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #f0a500;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            animation: fadeIn 3s;
+        }
+        .hero .cta-button:hover {
+            background-color: #e08900;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .section img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            margin: 20px 0;
+            transition: transform 0.3s;
+        }
+        .section img:hover {
+            transform: scale(1.1);
+        }
+        .cta {
+            background-color: #f4f4f4;
+            padding: 40px 20px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Loom</h1>
+        <nav>
+            <a href="#about">Sobre</a>
+            <a href="#services">Serviços</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Seção Hero -->
+    <section class="hero">
+        <h1>Bem-vindo ao Loom</h1>
+        <p>Tecer Inovações, Inspirar Conexões</p>
+        <a href="#about" class="cta-button">Saiba Mais</a>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="about" class="section">
+        <h2>Sobre Nós</h2>
+        <p>Na Loom, nossa missão é tecer inovações e inspirar conexões. Nossa visão é criar um mundo onde ideias brilhantes se conectem e prosperem.</p>
+        <img src="https://source.unsplash.com/300x300/?team,collaboration" alt="Sobre Nós">
+    </section>
+
+    <!-- Seção Serviços -->
+    <section id="services" class="section">
+        <h2>Nossos Serviços</h2>
+        <div>
+            <h3>Consultoria em Inovação</h3>
+            <p>Oferecemos consultoria especializada para impulsionar suas ideias inovadoras.</p>
+            <img src="https://source.unsplash.com/300x300/?consulting,innovation" alt="Consultoria em Inovação">
+        </div>
+        <div>
+            <h3>Desenvolvimento de Projetos</h3>
+            <p>Transformamos suas ideias em projetos concretos e bem-sucedidos.</p>
+            <img src="https://source.unsplash.com/300x300/?development,project" alt="Desenvolvimento de Projetos">
+        </div>
+        <div>
+            <h3>Workshops e Treinamentos</h3>
+            <p>Capacite sua equipe com nossos workshops e treinamentos especializados.</p>
+            <img src="https://source.unsplash.com/300x300/?workshop,training" alt="Workshops e Treinamentos">
+        </div>
+    </section>
+
+    <!-- Seção Testemunhos -->
+    <section id="testimonials" class="section">
+        <h2>O que nossos clientes dizem</h2>
+        <p>"A Loom transformou nossa visão em realidade. Recomendo a todos!" - João Silva</p>
+        <p>"Os workshops da Loom são incríveis e muito inspiradores." - Maria Oliveira</p>
+    </section>
+
+    <!-- Seção Blog -->
+    <section id="blog" class="section">
+        <h2>Últimos Artigos</h2>
+        <p>Leia nossos últimos artigos sobre inovação e criatividade no nosso <a href="#blog">blog</a>.</p>
+    </section>
+
+    <!-- Seção Call to Action -->
+    <section class="cta">
+        <h2>Entre em Contato</h2>
+        <p>Quer saber mais? Entre em contato conosco hoje mesmo!</p>
+        <a href="#contact" class="cta-button">Entre em Contato</a>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <p>&copy; 2024 Loom. Todos os direitos reservados.</p>
+        <nav>
+            <a href="#about">Sobre</a>
+            <a href="#services">Serviços</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contato</a>
+        </nav>
+        <div>
+            <p>Nos siga nas redes sociais:</p>
+            <a href="#">Facebook</a> |
+            <a href="#">Twitter</a> |
+            <a href="#">LinkedIn</a>
+        </div>
+    </footer>
+
+</body>
+</html>
